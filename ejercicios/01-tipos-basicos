@@ -1,0 +1,13 @@
+let nombre: string = 'Strider';
+const constante = 'strider';
+
+nombre = 'Alberto';
+
+console.log(nombre);
+
+let variableNoTipada: string | number = 'Alberto';
+let boleano: boolean = true;
+
+variableNoTipada = 4;
+
+console.log(variableNoTipada);
